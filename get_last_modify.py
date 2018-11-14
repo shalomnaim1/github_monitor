@@ -71,7 +71,6 @@ def main():
                                   "diff": options.max_diff}} 
 
     print(action_dict[options.action](**action_kwagrs[options.action]))
-    #print(gm.is_modefied_latly("public/doc/swagger-2-v0.0.1.yaml", "last_modified", 1))
 
 if __name__ == "__main__":
    main()
